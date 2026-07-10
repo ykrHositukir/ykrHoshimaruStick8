@@ -1,0 +1,16 @@
+{
+  "name": "stick-fight-online",
+  "version": "1.0.0",
+  "description": "WebSocket server for Stick Fight: Cyber Neon Omega online mode",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "tunnel": "node server.js --tunnel",
+    "tunnel:jp": "node server.js --tunnel-cf",
+    "online": "node server.js"
+  },
+  "dependencies": {
+    "localtunnel": "^2.0.2",
+    "ws": "^8.18.0"
+  }
+}
